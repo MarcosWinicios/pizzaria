@@ -29,9 +29,9 @@ alter table if exists tb_order_product add constraint fk_tb_order_product_tb_ord
 foreign key (order_id) references tb_order;
 
 INSERT INTO tb_product (name, price, image_Uri, description) VALUES 
-('Pizza de Calabresa', 50.0, 'https://github.com/devsuperior/1.png', 'Pizza calabresa com queijo, molho e massa especial'),
-('Pizza Quatro Queijos', 40.0, 'https://github.com/devsuperior/2.png', 'Pizza quatro queijos muito boa'),
-('Pizza de Escarola', 60.0, 'https://github.com/devsuperior/3.png', 'Pizza escarola muito boa');
+('Pizza de Calabresa', 50.0, 'https://github.com/MarcosWinicios/1.png', 'Pizza calabresa com queijo, molho e massa especial'),
+('Pizza Quatro Queijos', 40.0, 'https://github.com/MarcosWinicios/2.png', 'Pizza quatro queijos muito boa'),
+('Pizza de Escarola', 60.0, 'https://github.com/MarcosWinicios/3.png', 'Pizza escarola muito boa');
 
 INSERT INTO tb_order (status, latitude, longitude, moment) VALUES 
 (0, 213123, 12323, TIMESTAMP WITH TIME ZONE '2021-01-04T11:00:00Z'),
